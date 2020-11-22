@@ -1,4 +1,52 @@
+:root {
+    --cabecera: #2A2A2E;
+    --blanco: #ffffff;
+    --negro: #000000;
+}
+
 body {
-    font-family: 'Cabin', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
     font-size: 20px;
+}
+
+.cabecera {
+    background-color: var(--cabecera);
+}
+
+
+/*Acerca de Mi*/
+
+header {
+    margin-top: 64px;
+    margin-bottom: 77px;
+    background-image: url('../img/desarrollo-web-front-end.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    padding-bottom: 10rem;
+}
+
+
+/*Sobre mi*/
+
+
+/*Experiencia laboral*/
+
+.exp-title {
+    font-weight: 700;
+}
+
+.proyectos {
+    background-color: var(--cabecera);
+    color: var(--blanco);
+}
+
+
+/*TypeForm*/
+
+
+/*Footer*/
+
+.icons-section {
+    background-color: var(--cabecera);
 }
